@@ -1,6 +1,0 @@
-// bottom circle:
-ellipse(200, 300, 150, 150);
-// middle circle:
-ellipse(200, 220, 100, 100);
-// top circle:
-ellipse(200, 150, 75, 75);
