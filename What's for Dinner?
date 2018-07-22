@@ -1,0 +1,147 @@
+background(186, 145, 20); // wooden table
+
+fill(255, 201, 201); // plate
+rect(25, 25, 350, 350); 
+fill(218, 131, 247);
+rect(50, 50, 300, 300);
+
+fill(255, 234, 0); // chips
+stroke(255, 140, 0);
+rect(200, 56, 11, 117);
+rect(200, 56, 11, 117);
+rect(211, 56, 11, 117);
+rect(222, 56, 11, 117);
+rect(233, 56, 11, 117);
+rect(244, 56, 11, 117);
+rect(255, 56, 11, 117);
+rect(266, 56, 11, 117);
+rect(277, 56, 11, 117);
+rect(288, 56, 11, 117);
+rect(299, 56, 11, 117);
+rect(310, 56, 11, 117);
+rect(321, 56, 11, 117);
+rect(332, 56, 11, 117);
+
+fill(58, 189, 6); //peas
+stroke(23, 112, 1);
+ellipse(60, 200, 15, 15); // first row of peas
+ellipse(75, 200, 15, 15);
+ellipse(90, 200, 15, 15);
+ellipse(105, 200, 15, 15);
+ellipse(120, 200, 15, 15);
+ellipse(135, 200, 15, 15);
+ellipse(150, 200, 15, 15);
+ellipse(165, 200, 15, 15);
+ellipse(180, 200, 15, 15);
+
+ellipse(60, 215, 15, 15); // second row of peas
+ellipse(75, 215, 15, 15);
+ellipse(90, 215, 15, 15);
+ellipse(105, 215, 15, 15);
+ellipse(120, 215, 15, 15);
+ellipse(135, 215, 15, 15);
+ellipse(150, 215, 15, 15);
+ellipse(165, 215, 15, 15);
+ellipse(180, 215, 15, 15);
+
+ellipse(60, 230, 15, 15); // third row of peas 
+ellipse(75, 230, 15, 15);
+ellipse(90, 230, 15, 15);
+ellipse(105, 230, 15, 15);
+ellipse(120, 230, 15, 15);
+ellipse(135, 230, 15, 15);
+ellipse(150, 230, 15, 15);
+ellipse(165, 230, 15, 15);
+ellipse(180, 230, 15, 15);
+
+ellipse(60, 230, 15, 15); // third row of peas 
+ellipse(75, 230, 15, 15);
+ellipse(90, 230, 15, 15);
+ellipse(105, 230, 15, 15);
+ellipse(120, 230, 15, 15);
+ellipse(135, 230, 15, 15);
+ellipse(150, 230, 15, 15);
+ellipse(165, 230, 15, 15);
+ellipse(180, 230, 15, 15);
+
+ellipse(60, 245, 15, 15); // fourth row of peas
+ellipse(75, 245, 15, 15);
+ellipse(90, 245, 15, 15);
+ellipse(105, 245, 15, 15);
+ellipse(120, 245, 15, 15);
+ellipse(135, 245, 15, 15);
+ellipse(150, 245, 15, 15);
+ellipse(165, 245, 15, 15);
+ellipse(180, 245, 15, 15);
+
+ellipse(60, 260, 15, 15); // fifth row of peas
+ellipse(75, 260, 15, 15);
+ellipse(90, 260, 15, 15);
+ellipse(105, 260, 15, 15);
+ellipse(120, 260, 15, 15);
+ellipse(135, 260, 15, 15);
+ellipse(150, 260, 15, 15);
+ellipse(165, 260, 15, 15);
+ellipse(180, 260, 15, 15);
+
+ellipse(60, 275, 15, 15); // sixth row of peas
+ellipse(75, 275, 15, 15);
+ellipse(90, 275, 15, 15);
+ellipse(105, 275, 15, 15);
+ellipse(120, 275, 15, 15);
+ellipse(135, 275, 15, 15);
+ellipse(150, 275, 15, 15);
+ellipse(165, 275, 15, 15);
+ellipse(180, 275, 15, 15);
+
+ellipse(60, 290, 15, 15); // seventh row of peas
+ellipse(75, 290, 15, 15);
+ellipse(90, 290, 15, 15);
+ellipse(105, 290, 15, 15);
+ellipse(120, 290, 15, 15);
+ellipse(135, 290, 15, 15);
+ellipse(150, 290, 15, 15);
+ellipse(165, 290, 15, 15);
+ellipse(180, 290, 15, 15);
+
+ellipse(60, 305, 15, 15); // eighth row of peas
+ellipse(75, 305, 15, 15);
+ellipse(90, 305, 15, 15);
+ellipse(105, 305, 15, 15);
+ellipse(120, 305, 15, 15);
+ellipse(135, 305, 15, 15);
+ellipse(150, 305, 15, 15);
+ellipse(165, 305, 15, 15);
+ellipse(180, 305, 15, 15);
+
+ellipse(60, 320, 15, 15); // ninth row of peas
+ellipse(75, 320, 15, 15);
+ellipse(90, 320, 15, 15);
+ellipse(105, 320, 15, 15);
+ellipse(120, 320, 15, 15);
+ellipse(135, 320, 15, 15);
+ellipse(150, 320, 15, 15);
+ellipse(165, 320, 15, 15);
+ellipse(180, 320, 15, 15);
+
+ellipse(60, 335, 15, 15); // eighth row of peas
+ellipse(75, 335, 15, 15);
+ellipse(90, 335, 15, 15);
+ellipse(105, 335, 15, 15);
+ellipse(120, 335, 15, 15);
+ellipse(135, 335, 15, 15);
+ellipse(150, 335, 15, 15);
+ellipse(165, 335, 15, 15);
+ellipse(180, 335, 15, 15);
+
+fill(245, 233, 196); // drumstick
+noStroke();
+rect(207, 261, 86, 14);
+ellipse(207, 264, 15, 15);
+ellipse(207, 275, 15, 15);
+fill(227, 198, 111);
+ellipse(287, 267, 122, 98);
+
+fill(239, 223, 245); // water
+stroke(171, 182, 209);
+ellipse(120, 115, 75, 75);
