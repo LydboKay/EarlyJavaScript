@@ -1,0 +1,49 @@
+// You'd think it was all good, but nooooooo - Happy Halloween!
+
+var bodyX = 200;
+var bodyY = 255;
+var bodyH = 180;
+var bodyW = bodyH / 1.2;
+var eyeSize = 15;
+
+draw = function() {
+    noStroke();
+    background(207, 254, 255);
+    
+    fill(240, 209, 36); // body
+    ellipse(bodyX, bodyY, bodyW, bodyH); 
+    
+    fill(255, 255, 255); // circle in centre
+    ellipse(bodyX, bodyY, bodyW - 75, bodyH - 75);
+    
+    fill(240, 209, 36); // ears
+    ellipse(bodyX - 28, bodyY - 160, bodyW - 112, bodyH / 2); // left ear
+    ellipse(bodyX + 25, bodyY - 160, bodyW - 112, bodyH / 2); // right ear
+    
+    fill(255, 255, 255); // white of ear centres
+    ellipse(bodyX - 28, bodyY - 160, bodyW - 133, bodyH / 3); // left ear white
+    ellipse(bodyX + 25, bodyY - 160, bodyW - 133, bodyH / 3); // right ear white
+    
+    fill(240, 209, 36); // face
+    ellipse(bodyX, bodyY - 115, bodyW - 50, bodyH / 2);
+    
+    fill(1, 1, 1); // eyes
+    ellipse(bodyX - 17, bodyY - 125, eyeSize, eyeSize); // left eye
+    ellipse(bodyX + 17, bodyY - 125, eyeSize, eyeSize); // right eye
+    
+    fill(240, 209, 36); // feet
+    rect(bodyW + 10, bodyH * 1.83, bodyX / 6, bodyY / 9); // left foot
+    rect(bodyW + 59, bodyH * 1.83, bodyX / 6, bodyY / 9); // right foot
+    
+    stroke(0, 0, 0); // teeth
+    fill(255, 255, 255);
+    rect(bodyW + 33, bodyH * 0.85, bodyX / 12, bodyY / 9); // left tooth
+    rect(bodyW + 50, bodyH * 0.85, bodyX / 12, bodyY / 9); // right tooth
+    
+    fill(240, 209, 36); // paw - hand things
+    ellipse(bodyH - 5, bodyH + 62 , bodyX / 5 , bodyY / 4); // left paw - hand thing
+    ellipse(bodyH + 45, bodyH + 62 , bodyX / 5 , bodyY / 4); // right paw - hand thing
+    
+    eyeSize += 0.2;
+    
+};
