@@ -1,0 +1,9 @@
+fill(255, 0, 255);
+textSize(20);
+text("These are a few of my favourite foods:", 10, 30);
+
+textSize(15);
+fill(232, 146, 146);
+text("1. Cake", 10, 60);
+text("2. More Cake", 10, 88);
+text("3. Hmmmm, shock horror - Even More Cake", 10, 116);
