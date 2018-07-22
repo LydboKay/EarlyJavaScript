@@ -10,3 +10,15 @@ var draw = function() {
     var message = myName + "!!!";
     text(message, mouseX, mouseY);
 };
+
+// You can concatenate strings (add them together) with + signs
+
+var myGreeting = "Alo";
+var myName = "Winston";
+var sayHello = myGreeting + ", " + myName + "!"; // Alo, Winston!
+
+// Use \n to break text over multiple lines
+text("Hello \nWorld!", 50, 100);
+
+// Use two more parameters to auto-wrap text in a box
+text("Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.", 50, 200, 200, 100);
