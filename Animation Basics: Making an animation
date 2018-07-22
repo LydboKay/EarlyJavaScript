@@ -1,0 +1,49 @@
+// This draws the car smeared because the background is only drawn once
+
+background(151, 244, 247);
+noStroke();
+
+// position of the car
+var x = 10;
+    
+draw = function() {
+    
+    // all lines of code inside here will be run repeatedly
+
+    // draw the car body
+    fill(255, 0, 115);
+    rect(x, 200, 100, 20);
+    rect(x + 15, 178, 70, 40);
+    
+    // draw the wheels
+    fill(77, 66, 66);
+    ellipse(x + 25, 221, 24, 24);
+    ellipse(x + 75, 221, 24, 24);
+    
+    x = x + 1;
+};
+
+// This draws the car as a proper animation because the background is redrawn before the car is
+
+noStroke();
+
+// position of the car
+var x = 10;
+    
+draw = function() {
+    
+    // all lines of code inside here will be run repeatedly
+    background(151, 244, 247);
+    
+    // draw the car body
+    fill(255, 0, 115);
+    rect(x, 200, 100, 20);
+    rect(x + 15, 178, 70, 40);
+    
+    // draw the wheels
+    fill(77, 66, 66);
+    ellipse(x + 25, 221, 24, 24);
+    ellipse(x + 75, 221, 24, 24);
+    
+    x = x + 10; // the larger the digit being added to or subtracted from x the faster the object moves
+};
