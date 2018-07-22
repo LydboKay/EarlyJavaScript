@@ -1,0 +1,29 @@
+var starX = 0;
+var starY = 320;
+var X = 50;
+var Y = 50;
+
+draw = function() {
+    
+    background(29, 40, 115); // dark night
+    fill(255, 242, 0);
+   
+    noStroke(); // star going left
+    ellipse(starX, starY, X, Y);
+    starX += 2;
+    starY -= 1.5;
+    X = X * 99/100;
+    Y = Y * 99/100;
+    
+    fill(0, 0, 0); 
+    stroke(0, 85, 255);
+    rect(0, 300, 50, 100); // skyscraper no.1
+    rect(50, 250, 50, 150); // skyscraper no.2
+    rect(100, 275, 50, 125); // skyscraper no.3
+    rect(150, 290, 50, 110); // skyscraper no.4
+    rect(200, 220, 50, 180); // skyscraper no.5
+    rect(250, 265, 50, 135); // skyscraper no.6
+    rect(300, 245, 50, 155); // skyscraper no.7
+    rect(350, 280, 50, 120); // skyscraper no.8
+    
+};
