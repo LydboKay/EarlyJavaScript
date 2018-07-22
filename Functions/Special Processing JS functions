@@ -1,0 +1,8 @@
+draw = function() {
+}; // this is one of the predefined 
+ProcessingJS functions and it is repeated continuously, whereas if it was var drawCar - function() {};, it would only be drawn when called.
+
+mouseMoved = function() { // stops drawing if mouse is not moved, whereas if it is draw - function() {};, it would keep doing so.
+    fill(mouseX, mouseY, mouseY);
+    ellipse(mouseX, mouseY, 10, 10);
+};
