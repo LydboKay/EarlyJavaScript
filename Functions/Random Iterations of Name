@@ -1,0 +1,20 @@
+var itsMe = function() {
+    
+    var textX = random(0, 300);
+    var textY = random(0, 300);
+    var yourName = "Lydia";   
+    fill(255, 0, 0);
+    textSize(30);
+    text("Hiiii, " + yourName, textX, textY);
+
+};
+
+itsMe();
+itsMe();
+itsMe();
+itsMe();
+itsMe();
+itsMe();
+itsMe();
+itsMe();
+itsMe();
